@@ -54,6 +54,12 @@ a {
   justify-content: flex-end;
 }
 
+.header__items:hover {
+  line-height: 1.5;
+  margin-top: -3px;
+  border-bottom: 2px solid white;
+}
+
 .header__img__label {
   display: flex;
   flex-direction: column;
@@ -163,6 +169,13 @@ a {
   width: 257px;
   margin-right: 30px;
   cursor: pointer;
+
+  &:not( :hover ){
+    opacity: 1.0;
+   }
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 .cards__earth {
@@ -224,6 +237,12 @@ a {
 
 .footer__social__icon {
   margin-right: 10px;
+
+  &:hover {
+    line-height: 20;
+    margin-top: -3px;
+    border-bottom: 2px solid white;
+  }
 }
 
 .footer__item__container {
@@ -235,6 +254,12 @@ a {
 .footer__items__menu {
   display: flex;
   margin-left: 160px;
+}
+
+.footer__items:hover {
+  line-height: 1.5;
+  margin-top: -3px;
+  border-bottom: 2px solid white;
 }
 
 .footer__span__copyright {
