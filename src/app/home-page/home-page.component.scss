@@ -34,6 +34,7 @@ a {
   display: flex;
   margin-top: 154px;
   margin-left: 157px;
+  margin-bottom: 245px;
 }
 
 .header__img__span {
@@ -46,4 +47,135 @@ a {
   width: 27%;
   background: white;
   margin-top: 164px;
+}
+
+// Cards Label
+
+.cards__label__container {
+  display: flex;
+  margin-left: 157px;
+  justify-content: space-between;
+  width: 73.5%;
+  margin-bottom: 87px;
+}
+
+.cards__label__span {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.cards__label__button {
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  background-color: white;
+  width: 180px;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.cards__label__button:hover {
+  outline: none;
+  background-color: black;
+  border: 3px solid white;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+
+// Cards
+
+.cards__container {
+  display: flex;
+  margin-left: 157px;
+  height: 483px;
+}
+
+.cards__earth {
+  display: flex;
+  background: url('./../../assets/desktop/image-deep-earth.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
+}
+
+.cards__span__earth,
+.cards__span__arcade,
+.cards__span__soccer,
+.cards__span__grid,
+.cards__span__path,
+.cards__span__boreal,
+.cards__span__curiosity,
+.cards__span__fisheye
+{
+  display: flex;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  width: 160px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 57px;
+  margin-left: 40px;
+}
+
+.cards__arcade {
+  display: flex;
+  background: url('./../../assets/desktop/image-night-arcade.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
+}
+
+.cards__soccer {
+  display: flex;
+  background: url('./../../assets/desktop/image-soccer-team.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
+}
+
+.cards__grid {
+  display: flex;
+  background: url('./../../assets/desktop/image-grid.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
+}
+
+.cards__span__grid {
+  width: 100px;
+}
+
+.cards__container__2 {
+  display: flex;
+  margin-left: 157px;
+  height: 483px;
+}
+
+.cards__path {
+  display: flex;
+  background: url('./../../assets/desktop/image-from-above.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
+}
+
+.cards__boreal {
+  display: flex;
+  background: url('./../../assets/desktop/image-pocket-borealis.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
+}
+
+.cards__curiosity {
+  display: flex;
+  background: url('./../../assets/desktop/image-curiosity.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
+}
+
+.cards__fisheye {
+  display: flex;
+  background: url('./../../assets/desktop/image-fisheye.jpg') no-repeat;
+  width: 257px;
+  margin-right: 30px;
 }
